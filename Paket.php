@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host = 'mail.plesnaoblacimakonjic.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'kontakt@plesnaoblacimakonjic.com';
-        $mail->Password = 'TestMail123!er'; // Unesi stvarnu lozinku
+        $mail->Password = 'TestMail123!er';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
